@@ -1,9 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 function AboutPage() {
   return (
-    <>
     <div className="fullScreenColoredSection">
       <div className="grid">
         <div>
@@ -17,7 +16,6 @@ function AboutPage() {
         </div>
       </div>
     </div>
-    </>
   )
 }
 
@@ -41,6 +39,7 @@ function MyIcon() {
       <img 
       className='avatar'
       src="https://avatars.githubusercontent.com/u/89557012?v=4"
+      alt="Superkat's avatar"
       />
     </div>
   )
@@ -85,6 +84,7 @@ function GithubIcon() {
       <img 
       className='avatar'
       src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+      alt="GitHub's logo"
       />
     </div>
   )
@@ -96,6 +96,7 @@ function ModrinthIcon() {
       <img 
       className='avatar'
       src="https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/publication/logo/a49f8e1b-3835-4ea1-a85b-118c6425ebc3/Modrinth_Dark_Logo.png"
+      alt="Modrinth's logo"
       />
     </div>
   )
