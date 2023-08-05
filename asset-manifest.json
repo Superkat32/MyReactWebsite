@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MyReactWebsite/kats-react-website/static/css/main.ee4ac4e4.css",
-    "main.js": "/MyReactWebsite/kats-react-website/static/js/main.236aed09.js",
-    "static/js/787.f198d1bf.chunk.js": "/MyReactWebsite/kats-react-website/static/js/787.f198d1bf.chunk.js",
-    "index.html": "/MyReactWebsite/kats-react-website/index.html",
-    "main.ee4ac4e4.css.map": "/MyReactWebsite/kats-react-website/static/css/main.ee4ac4e4.css.map",
-    "main.236aed09.js.map": "/MyReactWebsite/kats-react-website/static/js/main.236aed09.js.map",
-    "787.f198d1bf.chunk.js.map": "/MyReactWebsite/kats-react-website/static/js/787.f198d1bf.chunk.js.map"
+    "main.css": "/MyReactWebsite/static/css/main.ee4ac4e4.css",
+    "main.js": "/MyReactWebsite/static/js/main.fdf60a7a.js",
+    "static/js/787.f198d1bf.chunk.js": "/MyReactWebsite/static/js/787.f198d1bf.chunk.js",
+    "index.html": "/MyReactWebsite/index.html",
+    "main.ee4ac4e4.css.map": "/MyReactWebsite/static/css/main.ee4ac4e4.css.map",
+    "main.fdf60a7a.js.map": "/MyReactWebsite/static/js/main.fdf60a7a.js.map",
+    "787.f198d1bf.chunk.js.map": "/MyReactWebsite/static/js/787.f198d1bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee4ac4e4.css",
-    "static/js/main.236aed09.js"
+    "static/js/main.fdf60a7a.js"
   ]
 }
