@@ -13,7 +13,7 @@ function AboutPage() {
           <AboutMe />
         </div>
         <div>
-          <ModrinthLink />
+          <MyLinks />
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@ function AboutMe() {
   )
 }
 
-function ModrinthLink() {
+function MyLinks() {
   return (
     <>
       <div>
