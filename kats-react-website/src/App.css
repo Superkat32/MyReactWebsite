@@ -61,7 +61,7 @@ h2 {
   -webkit-text-fill-color: #49bff9;
   text-shadow: 0px 0px 2px #75c9f3;
   @media (orientation:portrait) {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
@@ -81,6 +81,9 @@ p {
   color: #49bef9;
   font-size: 23px;
   text-align: left;
+  @media (orientation:portrait) {
+    font-size: 17px;
+  }
 }
 
 a {
@@ -94,7 +97,8 @@ a {
   -webkit-text-fill-color: #49bff9;
   text-shadow: 0px 0px 2px #75c9f3;
   @media (orientation:portrait) {
-    font-size: 40px;
+    font-size: 20px;
+    margin-top: -20px;
   }
 }
 
@@ -107,6 +111,9 @@ li::before {
   content: "•  ";
   color: #7230b9;
   margin-left: -30px;
+  @media (orientation:portrait) {
+    margin-left: -15px;
+  }
 }
 
 li {
@@ -114,6 +121,10 @@ li {
   font-size: 32px;
   text-align: left;
   margin-bottom: 10px;
+  @media (orientation:portrait) {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
 }
 
 .coloredSection {
@@ -150,6 +161,12 @@ li {
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 1rem;
+  @media (orientation:portrait) {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: left;
+    overflow-x: hidden;
+  }
 }
 
 .avatarCompatSection {
@@ -167,6 +184,17 @@ li {
   padding-top: -10px;
   border-radius: 1rem;
   z-index: -1;
+  @media (orientation:portrait) {
+    max-height: 145px;
+    overflow-y: hidden;
+    min-width: 285px;
+    margin-top: -10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    justify-content: left;
+  }
 }
 
 .avatar {
@@ -174,6 +202,10 @@ li {
   position: relative;
   width: 100px;
   height: 100px;
+  @media (orientation:portrait) {
+    width: 75px;
+    height: 75px;
+  }
 }
 
 .avatarColoredSection {
@@ -198,7 +230,6 @@ li {
   overflow-y: hidden;
   display: inline-block;
   justify-content: center;
-  /* margin-top: -10px; */
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: -112px;
@@ -207,6 +238,9 @@ li {
   padding-top: 15px;
   margin-right: 250px;
   border-radius: 1rem;
+  @media (orientation:portrait) {
+    margin-bottom: 0px;
+  }
 }
 
 .avatarColoredSection3 {
@@ -221,16 +255,29 @@ li {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  /* margin-right: 250px; */
   border-radius: 1rem;
+  @media (orientation:portrait) {
+    margin-bottom: 0px;
+    margin-left: -245px;
+  }
 }
 
 .grid {
   display: grid;
+  /* align-items: center; */
+  /* grid-template-columns: repeat(auto-fit, minmax(20px, 2fr)); */
+  /* grid-gap: 1rem; */
+
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 100px;
+  @media (orientation:portrait) {
+    grid-template-columns: 0fr;
+    grid-template-rows: 0fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
 }
 
 .highlightColoredSectionBulletPoint {
@@ -248,6 +295,13 @@ li {
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 1rem;
+  @media (orientation:portrait) {
+    max-width: 270px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    height: 205px;
+  }
 }
 
 .altColoredButton {
@@ -260,6 +314,9 @@ li {
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-radius: 1rem;
+  @media (orientation:portrait) {
+    text-align: center;
+  }
 }
 
 @keyframes App-logo-spin {
