@@ -118,7 +118,7 @@ li::before {
 
 li {
   color: #af78ea;
-  font-size: 32px;
+  font-size: 24px;
   text-align: left;
   margin-bottom: 10px;
   @media (orientation:portrait) {
@@ -161,12 +161,12 @@ li {
   padding-top: 30px;
   padding-bottom: 30px;
   border-radius: 1rem;
-  @media (orientation:portrait) {
+  /* @media (orientation:portrait) {
     margin-left: 25px;
     margin-right: 25px;
     text-align: left;
     overflow-x: hidden;
-  }
+  } */
 }
 
 .avatarCompatSection {
@@ -175,16 +175,16 @@ li {
   display: inline-block;
   justify-content: center;
   margin-top: -20px;
-  margin-left: 15px;
-  margin-right: 15px;
+  /* margin-left: 15px; */
+  /* margin-right: 15px; */
   padding-left: 15px;
   padding-right: 15px;
-  min-width: 335px;
+  min-width: 75%;
   height: 233px;
   padding-top: -10px;
   border-radius: 1rem;
   z-index: -1;
-  @media (orientation:portrait) {
+  /* @media (orientation:portrait) {
     max-height: 145px;
     overflow-y: hidden;
     min-width: 285px;
@@ -194,7 +194,7 @@ li {
     padding-left: 7px;
     padding-right: 7px;
     justify-content: left;
-  }
+  } */
 }
 
 .avatar {
@@ -212,15 +212,18 @@ li {
   background-color: #374148;
   background-origin: content-box;
   overflow-y: hidden;
-  display: inline-block;
+  /* display: inline-block; */
   justify-content: center;
+  float: left;
   margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  margin-right: 250px;
+  margin-left: 10%;
+  /* margin-left: 30px; */
+  /* margin-right: 30%; */
+  /* margin-right: 15px; */
+  /* margin-right: 250px; */
   border-radius: 1rem;
 }
 
@@ -228,95 +231,113 @@ li {
   background-color: #374148;
   background-origin: content-box;
   overflow-y: hidden;
-  display: inline-block;
+  /* display: inline-block; */
   justify-content: center;
-  margin-left: 15px;
-  margin-right: 15px;
+  float: left;
+  margin-left: 10%;
   margin-bottom: -112px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-  margin-right: 250px;
+  /* margin-left: 15px; */
+  /* margin-right: 15px; */
+  /* margin-right: 250px; */
   border-radius: 1rem;
-  @media (orientation:portrait) {
+  /* @media (orientation:portrait) {
     margin-bottom: 0px;
-  }
+  } */
 }
 
 .avatarColoredSection3 {
   background-color: #374148;
-  background-origin: content-box;
+  /* background-origin: content-box; */
   overflow-y: hidden;
-  display: inline-block;
-  justify-content: center;
-  margin-top: -10px;
-  margin-left: 15px;
-  margin-right: -30px;
+  /* display: inline-block; */
+  /* justify-content: center; */
+  /* margin-top: -10px; */
+  float: left;
+  /* margin-right: 35px; */
+  margin-left: 5px;
+  /* margin-left: 10%; */
+  /* margin-left: 15px; */
+  /* margin-right: -30px; */
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
   border-radius: 1rem;
   @media (orientation:portrait) {
-    margin-bottom: 0px;
-    margin-left: -245px;
+    margin-left: 115px;
   }
 }
 
 .grid {
   display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(60vmin, 1fr));
+  /* grid-gap: -8rem; */
+  align-items: center;
+  overflow-x: hidden;
+
   /* align-items: center; */
   /* grid-template-columns: repeat(auto-fit, minmax(20px, 2fr)); */
   /* grid-gap: 1rem; */
 
-  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
-  grid-row-gap: 100px;
-  @media (orientation:portrait) {
+  grid-row-gap: 100px; */
+  /* @media (orientation:portrait) {
     grid-template-columns: 0fr;
     grid-template-rows: 0fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-  }
+  } */
 }
 
 .highlightColoredSectionBulletPoint {
   background-color: #3a4b54;
-  overflow-y: auto;
+  overflow-y: hidden;
   display: inline-block;
   justify-content: center;
   overflow-wrap: break-word;
-  height: 335px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 600px;
+  /* height: 335px; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  /* width: 600px; */
+  /* background-size: auto; */
+  width: 75%;
   height: 337px;
-  background-size: auto;
+  margin-top: 15px;
+  margin-left: 7px;
+  margin-right: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: -10px;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 1rem;
-  @media (orientation:portrait) {
+  /* @media (orientation:portrait) {
     max-width: 270px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 10px;
     height: 205px;
-  }
+  } */
 }
 
 .altColoredButton {
   background-color: #2a354a;
   overflow-y: hidden;
-  /* margin-top: 10px; */
+  margin-top: 10px;
   /* margin-left: 50px; */
   /* margin-right: 50px; */
-  /* padding-top: 30px; */
+  /* padding-top: 0.7vmin; */
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-radius: 1rem;
-  @media (orientation:portrait) {
-    text-align: center;
-  }
+  /* @media (orientation:portrait) { */
+    /* text-align: center; */
+  /* } */
 }
 
 @keyframes App-logo-spin {
