@@ -33,6 +33,16 @@
   color: #61dafb;
 }
 
+.header {
+  /* font-size: 20px; */
+  margin-right: 40px;
+  margin-left: 40px;
+  @media (orientation:portrait) {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+}
+
 h1 {
   color: #49bef9;
   font-size: 70px;
@@ -70,11 +80,29 @@ h3 {
   font-size: 40px;
   text-align: center;
   letter-spacing: 5px;
-  margin-top: 15px;
-  margin-bottom: -20px;
+  /* margin-top: 15px; */
+  /* margin-bottom: 20px; */
   -webkit-text-stroke: 7px #49bef95f;
   -webkit-text-fill-color: #49bff9;
   text-shadow: 0px 0px 2px #75c9f3;
+  @media (orientation:portrait) {
+    font-size: 20px;
+  }
+}
+
+h4 {
+  color: #49bef9;
+  font-size: 27px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  -webkit-text-stroke: 7px #49bef95f;
+  -webkit-text-fill-color: #49bff9;
+  text-shadow: 0px 0px 2px #75c9f3;
+  @media (orientation:portrait) {
+    font-size: 15px;
+  }
 }
 
 p {
@@ -327,6 +355,17 @@ li {
   /* @media (orientation:portrait) { */
     /* text-align: center; */
   /* } */
+}
+
+.iconAvatar {
+  border-radius: 50%;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  @media (orientation:portrait) {
+    width: 75px;
+    height: 75px;
+  }
 }
 
 @keyframes App-logo-spin {
