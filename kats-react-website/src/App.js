@@ -68,10 +68,10 @@ function MyLinks() {
       <div className="avatarCompatSection">
         <p>You can find my work here!</p>
         <div className="altColoredButton">
-          <a href="https://modrinth.com/user/Superkat32">Modrinth</a>
+          <a href="https://github.com/Superkat32">GitHub</a>
         </div>
         <div className="altColoredButton">
-          <a href="https://github.com/Superkat32">GitHub</a>
+          <a href="https://modrinth.com/user/Superkat32">Modrinth</a>
         </div>
       </div>
     </>
